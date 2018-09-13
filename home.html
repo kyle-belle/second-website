@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset = "utf-8" >
+	<meta name = "viewport" content = "width=device-width" >
+	<meta name = "description" content = "Website" >
+	<meta name = "keywords" content = "Website" >
+
+	<title>Website | Home</title>
+
+	<style>
+
+	body{
+		font: 15px/1.5 Ariel, helvetica, sans-serif;
+		padding: 0;
+		margin: 0;
+		background-color: rgb(244,244,244);
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	.container{
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+	}
+
+	.header{
+		background-color: rgb(53,66,74);
+		color: rgb(255,255,255);
+		padding-top: 30px;
+		min-height: 70px;
+		border-bottom: rgb(232,73,29) 3px solid;
+	}
+
+	.header a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+
+	.header ul{
+		float: right;
+		margin: 10px 0 0 0;
+		padding: 0;
+	}
+
+	.header li{
+		display: inline;
+		padding: 0 20px 0 20px;
+	}
+
+	.header .branding{
+		float: left;
+	}
+
+	.header .branding h1{
+		text-decoration: none;
+		margin: 0;
+	}
+
+	.header .highlight, .header .current a{
+		color: rgb(232,73,29);
+		font-weight: bold;
+	}
+
+	.header a:hover{
+		color: rgb(175,0,0);
+		text-decoration: underline;
+		font-weight: bold;
+	}
+
+	.showcase{
+		min-height: 400px;
+		text-align: center;
+		color: rgb(255,255,255);
+
+		background-image: url(./images/backdrop44-copy.jpg);
+		background-repeat: no-repeat;
+		background-position: 0 -160px;
+		
+	}
+
+	.showcase h1{
+		margin-top: 50px;
+		font-size: 55px;
+		margin-bottom: 10px;
+	}
+
+	.showcase p{
+		font-size: 20px;
+	}
+
+	.newsletter{
+		padding: 15px;
+		color: rgb(255,255,255);
+		background-color: rgb(53,66,74);
+	}
+
+	.newsletter h1{
+		float: left;
+	}
+
+	.newsletter form{
+		float: right;
+		margin-top: 20px;
+	}
+
+	.newsletter input[type = "email"]{
+		padding: 4px;
+		height: 25px;
+		width: 250px;
+	}
+
+	.button-1{
+		height: 35px;
+		border: 0;
+		color: rgb(255,255,255);
+		background-color: rgb(232,73,29);
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.button-1:hover{
+		background-color: rgb(240,100,50);
+		cursor: pointer;
+	}
+
+	.boxes .box{
+		float: left;
+		width: 30%;
+		padding: 10px;
+		text-align: center;
+		box-sizing: border-box;
+		margin: auto;
+	}
+
+	.boxes .box img{
+		width: 100px;
+	}
+
+	.footer{
+		padding: 20px 20px 10px 20px;
+		margin-top: 20px;
+		color: rgb(255,255,255);
+		background-color: rgb(232,73,29);
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	</style>
+
+</head>
+
+
+
+<body>
+
+	<div class = "header" >
+
+		<div class = "container" >
+
+			<div class = "branding" >
+			
+				<h1> <span class = "highlight" > WEB</span>SITE </h1>
+
+			</div>
+
+			<ul>
+			
+				<li class = "current"> <a href = "home.html" >Home</a> </li>
+				<li> <a href = "about.html" >About</a> </li>
+				<li> <a href = "services.html" >Services</a> </li>
+
+			</ul>
+
+		</div>
+	</div>
+
+	<section class = "showcase" >
+		
+		<div class = "container" >
+			
+			<h1>This Is A Website</h1>
+
+			<p>
+				This is a website that I built using HTML and CSS. HTML (Hyper-Text Markup Language) provides the basic structure and content of the website such as the text and images meanwhile CSS (cascading style sheets) gives the ability to stylize the website and provide the visual element which you are seeing right now.
+			</p>
+
+		</div>
+
+	</section>
+
+	<section class = "newsletter" >
+		
+		<div class = "container" >
+			
+			<h1>Subscribe to this website</h1>
+
+			<form>
+				
+				<input type = "email" placeholder = "Enter email..." >
+
+				<button type = "submit" class = "button-1" > Subscribe </button>
+
+			</form>
+
+		</div>
+
+	</section>
+
+	<section class = "boxes" >
+		
+		<div class = "container" >
+			
+			<div class = "box" >
+
+				<img src = "./images/html-logo.png" >
+
+				<h3>HTML5 Markup</h3>
+
+				<p> 
+					Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.
+				</p>
+
+			</div>
+
+			<div class = "box" >
+
+				<img src = "./images/CSS-logo.png" >
+
+				<h3>CSS3 Styling</h3>
+
+				<p> 
+					Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+				</p>
+
+			</div>
+
+			<div class = "box" >
+
+				<img src = "./images/brush-and-pencil.png" >
+
+				<h3>Graphic Design</h3>
+
+				<p> 
+					Graphic Design is one the most important part of creating a beautiful, easy-to-use website and will set your website apart from most other website and give your website a much needed competitive edge in this <strong>very</strong> competitive space.
+				</p>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<p class = "footer" >
+		
+		WEBSITE &reg; copyright &copy; 2018
+
+	</p>
+
+</body>
+
+</html>
